@@ -57,7 +57,10 @@ public class AuthorizeController {
             mapper.insertUser(user);
             System.out.println(githubUser.getName());
 
-            response.addCookie(new Cookie("token", token));
+            Cookie cookie = new Cookie("token", token);
+            cookie.setMaxAge(3600*24*30);
+            response.addCookie(cookie);
+            System.out.println("cookie added");
             return "index";
         }
         else

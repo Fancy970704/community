@@ -1,0 +1,1 @@
+ALTER table user add column bio varchar(300);
