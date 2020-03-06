@@ -47,6 +47,7 @@ public class AuthorizeController {
         GithubUser githubUser = githubProvider.getUser(accessToken);
 
         if(githubUser!=null){
+            System.out.println(githubUser.toString());
             User user = new User();
             String token = UUID.randomUUID().toString();  //ctrl+alt+V
             user.setToken(token);
@@ -61,9 +62,9 @@ public class AuthorizeController {
             cookie.setMaxAge(3600*24*30);
             response.addCookie(cookie);
             System.out.println("cookie added");
-            return "index";
+            return "redirect:/";
         }
         else
-            return "index";
+            return "redirect:/";
     }
 }

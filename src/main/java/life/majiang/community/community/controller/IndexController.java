@@ -28,7 +28,11 @@ public class IndexController {
             }
             User user = mapper.findByToken(token);
             if(user!=null)
+            {
+                System.out.println(user.toString());
                 request.getSession().setAttribute("user", user);
+            }
+
         }
         return "index";
     }

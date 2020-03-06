@@ -10,6 +10,7 @@ public class User {
     private String token;
     private Long gmtCreate;
     private Long gmtModified;
+    private String avatarUrl;
 
     public Integer getId() {
         return id;
@@ -70,4 +71,6 @@ public class User {
                 ", gmtModified=" + gmtModified +
                 '}';
     }
+
+
 }
