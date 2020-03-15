@@ -2,13 +2,25 @@ body{
     background-color:#efefef;
 }
 
-
 .main{
     background-color:white;
     margin:30px;
 }
 
+.list-text{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
 .btn-publish{
     float:right;
-    bottom-margin:15px;
+    margin-bottom:15px;
 }
+
+.media-object{
+    height:38px;
+    width:38px;
+}
+
+

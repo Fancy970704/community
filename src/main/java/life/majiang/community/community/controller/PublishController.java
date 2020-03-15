@@ -61,12 +61,12 @@ public class PublishController {
             question.setTitle(title);
             question.setDescription(description);
             question.setTag(tag);
-            System.out.println("accountid: "+user.getAccountId());
-            question.setCreator(new Integer(user.getAccountId()));
+            System.out.println("creator: "+user.getId());
+            question.setCreator(new Integer(user.getId()));
             question.setGmtCreate(System.currentTimeMillis());
             question.setGmtModified(question.getGmtCreate());
             questionMapper.createQuestion(question);
-            return "index";
+            return "redirect:/";
         }
     }
 }
