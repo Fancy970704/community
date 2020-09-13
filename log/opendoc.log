@@ -1,0 +1,840 @@
+2020-09-13 18:46:08.532 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 18:46:08.839 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 1204 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 18:46:08.842 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 18:46:08.867 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 18:46:09.606 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 18:46:09.613 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:46:09.613 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 18:46:09.614 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 18:46:09.681 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 18:46:09.681 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
+2020-09-13 18:46:09.961 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 18:46:10.014 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 18:46:10.213 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:46:10.233 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 18:46:10.237 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.669 seconds (JVM running for 3.009)
+2020-09-13 18:46:37.572 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 18:46:37.572 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 18:46:37.577 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 18:46:37.609 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 18:46:37.718 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 18:48:34.537 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 18:48:34.957 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 7724 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 18:48:34.960 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 18:48:34.989 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 18:48:35.979 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 18:48:35.986 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:48:35.987 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 18:48:35.988 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 18:48:36.069 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 18:48:36.070 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1073 ms
+2020-09-13 18:48:36.342 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 18:48:36.390 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 18:48:36.523 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:48:36.540 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 18:48:36.543 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.963 seconds (JVM running for 3.284)
+2020-09-13 18:48:43.142 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 18:48:43.142 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 18:48:43.148 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 6 ms
+2020-09-13 18:48:43.186 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 18:48:43.288 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 18:53:09.753 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 18:53:10.082 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 12376 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 18:53:10.085 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 18:53:10.110 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 18:53:10.792 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 18:53:10.798 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:53:10.799 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 18:53:10.800 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 18:53:10.883 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 18:53:10.883 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 770 ms
+2020-09-13 18:53:11.106 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 18:53:11.143 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 18:53:11.238 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:53:11.253 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 18:53:11.255 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.465 seconds (JVM running for 2.766)
+2020-09-13 18:53:55.379 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 18:53:55.380 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 18:53:55.383 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 18:53:55.413 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 18:53:55.532 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 18:58:18.089 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 18:58:18.459 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 9088 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 18:58:18.462 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 18:58:18.491 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 18:58:19.288 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 18:58:19.298 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:58:19.299 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 18:58:19.299 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 18:58:19.379 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 18:58:19.379 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2020-09-13 18:58:19.680 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 18:58:19.736 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 18:58:20.003 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 18:58:20.029 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 18:58:20.034 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.893 seconds (JVM running for 3.472)
+2020-09-13 19:00:29.925 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 19:00:29.926 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 19:00:29.931 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 19:00:29.964 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 19:00:30.070 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 19:06:03.625 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 19:06:04.067 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 9104 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 19:06:04.070 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 19:06:04.092 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 19:06:04.908 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 19:06:04.916 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:06:04.917 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 19:06:04.917 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 19:06:04.989 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 19:06:04.989 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 889 ms
+2020-09-13 19:06:05.266 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 19:06:05.313 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 19:06:05.538 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:06:05.555 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 19:06:05.557 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.887 seconds (JVM running for 3.347)
+2020-09-13 19:06:29.202 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 19:06:29.203 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 19:06:29.208 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 19:06:29.241 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 19:06:29.342 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 19:06:32.217 - WARN  [nio-8887-exec-2] stractHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-09-13 19:09:38.527 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 19:09:38.879 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 13584 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 19:09:38.881 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 19:09:38.903 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 19:09:39.800 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 19:09:39.806 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:09:39.806 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 19:09:39.807 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 19:09:39.886 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 19:09:39.886 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2020-09-13 19:09:40.157 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 19:09:40.210 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 19:09:40.404 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:09:40.420 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 19:09:40.424 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.859 seconds (JVM running for 3.215)
+2020-09-13 19:09:45.825 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 19:09:45.826 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 19:09:45.834 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
+2020-09-13 19:09:45.870 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 19:09:45.981 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 19:14:08.988 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 19:14:09.368 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 15020 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 19:14:09.372 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 19:14:09.401 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 19:14:10.687 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 19:14:10.697 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:14:10.697 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 19:14:10.698 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 19:14:10.817 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 19:14:10.818 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2020-09-13 19:14:11.187 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 19:14:11.249 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 19:14:11.517 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:14:11.538 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 19:14:11.546 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.512 seconds (JVM running for 4.041)
+2020-09-13 19:14:15.784 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 19:14:15.784 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 19:14:15.787 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 19:14:15.825 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 19:14:15.974 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 19:17:08.447 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 19:17:08.805 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 14708 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 19:17:08.808 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 19:17:08.831 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 19:17:09.574 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 19:17:09.579 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:17:09.581 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 19:17:09.581 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 19:17:09.676 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 19:17:09.676 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 839 ms
+2020-09-13 19:17:09.920 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 19:17:09.966 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 19:17:10.094 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 19:17:10.110 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 19:17:10.157 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.658 seconds (JVM running for 2.992)
+2020-09-13 19:17:14.132 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 19:17:14.132 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 19:17:14.140 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
+2020-09-13 19:17:14.171 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 19:17:14.275 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 19:17:22.421 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:5c903f6713dc1b2379950b85f9cf6d9d7a5ae50c
+2020-09-13 21:19:35.093 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:19:35.447 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 2012 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:19:35.450 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:19:35.490 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:19:36.684 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:19:36.692 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:19:36.692 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:19:36.693 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:19:36.776 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:19:36.776 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1284 ms
+2020-09-13 21:19:37.080 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:19:37.132 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:19:37.324 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:19:37.339 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:19:37.342 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.219 seconds (JVM running for 3.686)
+2020-09-13 21:19:45.876 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:19:45.876 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:19:45.879 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 21:19:45.913 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:19:46.050 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:19:50.993 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:ef152a5c1af3e3f8b1c7daf6016200619d131b33
+2020-09-13 21:22:33.895 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:22:34.259 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 18260 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:22:34.262 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:22:34.296 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:22:35.100 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:22:35.109 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:22:35.109 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:22:35.110 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:22:35.223 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:22:35.223 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2020-09-13 21:22:35.539 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:22:35.601 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:22:35.831 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:22:35.849 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:22:35.851 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.916 seconds (JVM running for 3.268)
+2020-09-13 21:22:40.469 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:22:40.469 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:22:40.473 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 21:22:40.507 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:22:40.610 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:22:47.039 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:fc4736eb0a822465eb40be033ff17a32a61ff9ce
+2020-09-13 21:25:10.227 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:25:10.579 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 17388 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:25:10.582 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:25:10.605 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:25:11.334 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:25:11.339 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:25:11.340 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:25:11.340 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:25:11.405 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:25:11.406 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2020-09-13 21:25:11.661 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:25:11.705 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:25:11.882 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:25:11.897 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:25:11.900 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.626 seconds (JVM running for 2.994)
+2020-09-13 21:25:20.208 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:25:20.208 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:25:20.215 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
+2020-09-13 21:25:20.250 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:25:20.350 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:25:33.151 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:4534a9775c9a7b97b7c9ed4a83afd36194e25523
+2020-09-13 21:31:17.109 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:31:17.464 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 16960 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:31:17.466 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:31:17.482 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:31:18.243 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:31:18.251 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:31:18.252 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:31:18.252 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:31:18.319 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:31:18.319 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 824 ms
+2020-09-13 21:31:18.598 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:31:18.652 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:31:18.850 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:31:18.869 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:31:18.872 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.711 seconds (JVM running for 3.08)
+2020-09-13 21:31:25.077 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:31:25.077 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:31:25.082 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 21:31:25.113 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:31:25.211 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:32:28.377 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:0c58ab33365c95a260a7d4b9e234198a42e5150b
+2020-09-13 21:36:16.481 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:36:16.826 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 16580 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:36:16.829 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:36:16.855 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:36:17.576 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:36:17.582 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:36:17.582 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:36:17.583 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:36:17.659 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:36:17.659 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2020-09-13 21:36:17.930 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:36:17.983 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:36:18.176 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:36:18.193 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:36:18.196 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.663 seconds (JVM running for 2.982)
+2020-09-13 21:36:26.143 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:36:26.143 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:36:26.147 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 21:36:26.181 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:36:26.278 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:36:33.425 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:79a525df9491cc474fb832292d95da5d2c3677d9
+2020-09-13 21:39:11.762 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:39:12.103 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 2376 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:39:12.105 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:39:12.132 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:39:12.930 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:39:12.938 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:39:12.939 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:39:12.939 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:39:13.024 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:39:13.025 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2020-09-13 21:39:13.341 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:39:13.392 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:39:13.600 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:39:13.618 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:39:13.620 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.802 seconds (JVM running for 3.191)
+2020-09-13 21:39:16.551 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:39:16.551 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:39:16.560 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
+2020-09-13 21:39:16.593 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:39:16.696 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:39:46.722 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:b9f7e52fd11d0025972445424bb8618a952353f9
+2020-09-13 21:40:39.859 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:40:40.232 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 13428 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:40:40.235 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:40:40.265 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:40:41.348 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:40:41.355 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:40:41.355 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:40:41.356 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:40:41.423 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:40:41.423 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1151 ms
+2020-09-13 21:40:41.697 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:40:41.742 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:40:41.985 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:40:42.001 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:40:42.003 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.11 seconds (JVM running for 3.501)
+2020-09-13 21:40:42.090 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:40:42.090 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:40:42.097 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
+2020-09-13 21:40:42.133 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:40:42.259 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:40:48.990 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:13ce68bf9625c012cca81de63c534b25e59c7089
+2020-09-13 21:41:09.664 - INFO  [nio-8887-exec-7] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:7aae7e8f58a358beecf81dc939ae6d9dc1bc92a7
+2020-09-13 21:41:25.421 - INFO  [nio-8887-exec-9] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:6a1e615d376bac621bc2dd53cf59f32415a94b37
+2020-09-13 21:42:15.561 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:42:15.930 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 1200 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:42:15.933 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:42:15.965 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:42:16.697 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:42:16.704 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:42:16.705 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:42:16.705 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:42:16.772 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:42:16.773 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 812 ms
+2020-09-13 21:42:17.038 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:42:17.085 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:42:17.276 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:42:17.292 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:42:17.295 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.683 seconds (JVM running for 2.997)
+2020-09-13 21:48:02.309 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 21:48:02.639 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 8356 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 21:48:02.642 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 21:48:02.670 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 21:48:03.397 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 21:48:03.403 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:48:03.404 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 21:48:03.404 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 21:48:03.488 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 21:48:03.489 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 817 ms
+2020-09-13 21:48:03.725 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 21:48:03.769 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 21:48:03.894 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 21:48:03.909 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 21:48:03.951 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.603 seconds (JVM running for 2.932)
+2020-09-13 21:48:49.407 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 21:48:49.408 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 21:48:49.415 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
+2020-09-13 21:48:49.449 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 21:48:49.555 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 21:50:48.379 - INFO  [io-8887-exec-10] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:444c8676e74c343b8ec2cc291a164defb9f863b6
+2020-09-13 21:51:13.879 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:8a930484bbf7c2f298b20468b9b09e7a0e4a9cb9
+2020-09-13 21:52:01.458 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:ddd7db771ca344e01f6766e1d97045fabe364511
+2020-09-13 22:09:27.687 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:09:28.031 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 17592 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:09:28.034 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:09:28.066 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:09:28.759 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:09:28.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:09:28.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:09:28.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:09:28.833 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:09:28.833 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2020-09-13 22:09:29.073 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:09:29.116 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:09:29.288 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:09:29.302 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:09:29.305 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.565 seconds (JVM running for 2.844)
+2020-09-13 22:09:36.452 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:09:36.452 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:09:36.457 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 22:09:36.487 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:09:36.588 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:10:20.395 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:2fafe06e62f9fb5c4cd4c00b59fb429378c897b2
+2020-09-13 22:21:22.423 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:21:22.793 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 15584 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:21:22.795 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:21:22.825 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:21:23.554 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:21:23.560 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:21:23.561 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:21:23.561 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:21:23.636 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:21:23.637 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 814 ms
+2020-09-13 22:21:23.906 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:21:23.955 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:21:24.139 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:21:24.158 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:21:24.161 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.691 seconds (JVM running for 2.955)
+2020-09-13 22:21:28.152 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:21:28.152 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:21:28.158 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 6 ms
+2020-09-13 22:21:28.188 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:21:28.276 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:21:38.625 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:aac7db0f458a0706b5120878bda589d7595b27c5
+2020-09-13 22:23:03.815 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:6027c3f643f65f3787229a9e171e95acc5a99380
+2020-09-13 22:25:00.580 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:25:00.967 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 18232 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:25:00.969 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:25:00.994 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:25:01.835 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:25:01.845 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:25:01.845 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:25:01.846 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:25:01.921 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:25:01.921 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2020-09-13 22:25:02.239 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:25:02.302 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:25:02.536 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:25:02.551 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:25:02.554 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.924 seconds (JVM running for 3.399)
+2020-09-13 22:25:16.062 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:25:16.062 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:25:16.066 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 22:25:16.097 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:25:16.200 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:25:27.158 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:dfcfc57d890a00c9c114b7de53c2f908bf70ea11
+2020-09-13 22:25:40.835 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:6d5e1ed64d9d469f5bd5a1bc65456edb7692f008
+2020-09-13 22:28:43.805 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:28:44.191 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 3208 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:28:44.194 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:28:44.227 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:28:45.061 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:28:45.066 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:28:45.067 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:28:45.067 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:28:45.141 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:28:45.141 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2020-09-13 22:28:45.415 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:28:45.467 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:28:45.666 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:28:45.683 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:28:45.686 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.822 seconds (JVM running for 3.171)
+2020-09-13 22:28:49.514 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:28:49.514 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:28:49.520 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 22:28:49.550 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:28:49.644 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:28:56.796 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:cd5aa042a055783e92e6830009ff030a3541ebc6
+2020-09-13 22:30:39.169 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:30:39.619 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 400 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:30:39.624 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:30:39.697 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:30:40.673 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:30:40.685 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:30:40.686 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:30:40.687 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:30:40.782 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:30:40.783 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1074 ms
+2020-09-13 22:30:41.086 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:30:41.136 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:30:41.309 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:30:41.325 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:30:41.328 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.117 seconds (JVM running for 3.401)
+2020-09-13 22:30:41.667 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:30:41.668 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:30:41.671 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 22:30:41.705 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:30:41.850 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:30:47.702 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:5f1deb15eb97f981030362d2a0c893d2d3b7e615
+2020-09-13 22:32:01.822 - INFO  [nio-8887-exec-7] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:a8f435d418f97a850ce884162cd179f598884770
+2020-09-13 22:36:40.366 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:36:40.878 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 14664 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:36:40.883 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:36:40.976 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:36:41.522 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:36:41.944 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 2664 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:36:41.947 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:36:41.987 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:36:42.502 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:36:42.516 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:42.517 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:36:42.518 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:36:42.654 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:36:42.655 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1707 ms
+2020-09-13 22:36:43.120 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:36:43.128 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:43.129 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:36:43.129 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:36:43.131 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:36:43.195 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:36:43.217 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:36:43.217 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1231 ms
+2020-09-13 22:36:43.520 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:43.554 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:36:43.558 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 3.137 seconds (JVM running for 5.928)
+2020-09-13 22:36:43.658 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:36:43.719 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:36:43.935 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:43.950 - INFO  [           main] o.a.j.l.DirectJDKLog           : Pausing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:43.950 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping service [Tomcat]
+2020-09-13 22:36:43.969 - INFO  [           main] o.a.j.l.DirectJDKLog           : Stopping ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:43.970 - INFO  [           main] o.a.j.l.DirectJDKLog           : Destroying ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:36:44.008 - INFO  [           main] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:36:46.943 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:36:46.944 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:36:46.948 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 22:36:46.994 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:36:47.125 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:36:59.882 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:36:59.882 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-09-13 22:36:59.888 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-09-13 22:37:07.900 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:37:08.228 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 16988 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:37:08.231 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:37:08.267 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:37:09.298 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:37:09.303 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:37:09.304 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:37:09.304 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:37:09.386 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:37:09.387 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1125 ms
+2020-09-13 22:37:09.691 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:37:09.743 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:37:09.959 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:37:09.977 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:37:09.981 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.039 seconds (JVM running for 3.406)
+2020-09-13 22:37:10.009 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:37:10.010 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:37:10.014 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 22:37:10.047 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:37:10.162 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:37:16.944 - INFO  [nio-8887-exec-1] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:d88a3468b236e0fecef2d30a8f70d391d1aa56b7
+2020-09-13 22:37:39.329 - INFO  [nio-8887-exec-7] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:01684182eb7c5a9326040199c321808226e032a2
+2020-09-13 22:42:30.136 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:42:30.507 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 4400 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:42:30.510 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:42:30.556 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:42:31.425 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:42:31.431 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:42:31.431 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:42:31.433 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:42:31.519 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:42:31.520 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2020-09-13 22:42:31.958 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:42:31.979 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:42:31.983 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.809 seconds (JVM running for 3.214)
+2020-09-13 22:42:49.775 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:42:49.776 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:42:49.781 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 22:42:49.815 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:42:49.920 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:42:56.470 - INFO  [nio-8887-exec-4] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:b7518a2bbb80337005ff2e6c3d03b164c8586ec7
+2020-09-13 22:43:14.847 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:467e0bcda021bb7fab243c2ce66bb94efe38d9f7
+2020-09-13 22:44:21.153 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:44:21.474 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 9924 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:44:21.477 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:44:21.503 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:44:22.192 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:44:22.199 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:44:22.199 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:44:22.200 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:44:22.273 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:44:22.273 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2020-09-13 22:44:22.704 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:44:22.731 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:44:22.771 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.577 seconds (JVM running for 2.919)
+2020-09-13 22:48:57.352 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:48:57.666 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 10568 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:48:57.669 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:48:57.700 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:48:58.664 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:48:58.672 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:48:58.672 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:48:58.672 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:48:58.747 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:48:58.747 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1045 ms
+2020-09-13 22:48:59.017 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:48:59.067 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:48:59.269 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:48:59.286 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:48:59.288 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.897 seconds (JVM running for 3.214)
+2020-09-13 22:49:06.690 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:49:06.690 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:49:06.699 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
+2020-09-13 22:49:06.733 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:49:06.839 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:49:15.757 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:03d27864b52b81fcf0ef93da221259d2c0962eaa
+2020-09-13 22:50:39.065 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:2d87d03e6d5d028c01bf3598bfb07b95c22740c5
+2020-09-13 22:53:07.651 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:53:08.009 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 8792 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:53:08.011 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:53:08.030 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:53:08.761 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:53:08.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:53:08.767 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:53:08.767 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:53:08.838 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:53:08.839 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
+2020-09-13 22:53:09.103 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:53:09.147 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:53:09.327 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:53:09.343 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:53:09.345 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.653 seconds (JVM running for 2.986)
+2020-09-13 22:53:17.728 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:53:17.728 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:53:17.732 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 22:53:17.761 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:53:17.855 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 22:53:20.138 - INFO  [nio-8887-exec-1] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:82d8b3870843b77eca86507f152bfe8368b3eea1
+2020-09-13 22:53:43.974 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:ae76e83f23c8005f6f12f3ef7c5ce76693f05881
+2020-09-13 22:55:41.557 - INFO  [nio-8887-exec-7] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:edeb18edbfb59e8e9f50af2adfdd8dca2c9e1b31
+2020-09-13 22:58:34.922 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:8a58d0e2959538b295a80584af6737e737bfdddb
+2020-09-13 22:59:46.529 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 22:59:46.873 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 4480 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 22:59:46.876 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 22:59:46.916 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 22:59:47.702 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 22:59:47.708 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:59:47.709 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 22:59:47.709 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 22:59:47.786 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 22:59:47.786 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
+2020-09-13 22:59:48.049 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 22:59:48.093 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 22:59:48.291 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 22:59:48.306 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 22:59:48.309 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.741 seconds (JVM running for 3.25)
+2020-09-13 22:59:57.420 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 22:59:57.421 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 22:59:57.427 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 6 ms
+2020-09-13 22:59:57.473 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 22:59:57.574 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:00:10.953 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:bad_verification_code
+2020-09-13 23:00:14.454 - INFO  [nio-8887-exec-6] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:bad_verification_code
+2020-09-13 23:04:59.780 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:05:00.165 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 17124 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:05:00.168 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:05:00.221 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:05:01.163 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:05:01.172 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:05:01.173 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:05:01.174 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:05:01.266 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:05:01.266 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2020-09-13 23:05:01.606 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:05:01.667 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:05:01.885 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:05:01.907 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:05:01.910 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.083 seconds (JVM running for 3.697)
+2020-09-13 23:05:07.414 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:05:07.414 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:05:07.419 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 23:05:07.476 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:05:07.612 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:05:13.682 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:b991ea721dbb66f34c13d7c84318c67ce1c95a6c
+2020-09-13 23:06:24.692 - WARN  [l-1 housekeeper] c.z.h.p.HikariPool$HouseKeeper : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s979ms370µs200ns).
+2020-09-13 23:07:31.468 - INFO  [nio-8887-exec-7] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:a7c9b22ac0383e81900586929e021bf0a6da2490
+2020-09-13 23:08:44.689 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:08:44.690 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-09-13 23:08:44.695 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-09-13 23:13:13.382 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:13:13.763 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 14224 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:13:13.767 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:13:13.816 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:13:14.662 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:13:14.669 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:13:14.670 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:13:14.671 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:13:14.758 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:13:14.758 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 948 ms
+2020-09-13 23:13:15.082 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:13:15.135 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:13:15.344 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:13:15.364 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:13:15.367 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.927 seconds (JVM running for 3.469)
+2020-09-13 23:13:32.422 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:13:32.423 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:13:32.427 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 23:13:41.733 - INFO  [nio-8887-exec-1] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:ac9ad934885764afa3dd6e9643878a2ce1af1b88
+2020-09-13 23:13:42.504 - INFO  [nio-8887-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:14:08.954 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:14:17.969 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:14:18.357 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 17136 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:14:18.360 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:14:18.413 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:14:19.370 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:14:19.381 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:14:19.381 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:14:19.382 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:14:19.465 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:14:19.465 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1063 ms
+2020-09-13 23:14:19.862 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:14:19.917 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:14:20.159 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:14:20.188 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:14:20.192 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 2.168 seconds (JVM running for 3.888)
+2020-09-13 23:14:26.010 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:14:26.011 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:14:26.016 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 23:14:26.073 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:14:26.198 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:14:32.386 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:9fc040ec12dca7f51a9ab62f37f94d3a12f73916
+2020-09-13 23:16:01.641 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:16:01.642 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown initiated...
+2020-09-13 23:16:01.648 - INFO  [extShutdownHook] c.z.h.HikariDataSource         : HikariPool-1 - Shutdown completed.
+2020-09-13 23:16:26.468 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:16:26.848 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 6776 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:16:26.851 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:16:26.875 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:16:27.581 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:16:27.586 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:16:27.586 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:16:27.587 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:16:27.656 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:16:27.656 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2020-09-13 23:16:27.884 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:16:27.924 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:16:28.024 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:16:28.122 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:16:28.124 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.611 seconds (JVM running for 3.071)
+2020-09-13 23:16:41.507 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:16:41.507 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:16:41.511 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 4 ms
+2020-09-13 23:16:41.538 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:16:41.641 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:23:12.601 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:23:13.006 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 17592 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:23:13.008 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:23:13.034 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:23:13.735 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:23:13.740 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:23:13.741 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:23:13.741 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:23:13.811 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:23:13.811 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2020-09-13 23:23:14.055 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:23:14.102 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:23:14.203 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:23:14.307 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:23:14.309 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.67 seconds (JVM running for 3.114)
+2020-09-13 23:23:19.322 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:23:19.322 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:23:19.327 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 23:23:19.354 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:23:19.451 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:23:30.974 - INFO  [nio-8887-exec-4] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:ef4b27355b1a6058eff5bea942038979bcfb77fd
+2020-09-13 23:31:22.890 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:31:23.237 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 12720 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:31:23.239 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:31:23.273 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:31:24.128 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:31:24.133 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:31:24.134 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:31:24.134 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:31:24.216 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:31:24.216 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2020-09-13 23:31:24.464 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:31:24.506 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:31:24.610 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:31:24.704 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:31:24.707 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.779 seconds (JVM running for 3.292)
+2020-09-13 23:31:38.744 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:31:38.744 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:31:38.749 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 23:31:38.773 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:31:38.872 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:31:46.005 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:5d1558c642c7dfab26edaa482949fcffcef4b5e9
+2020-09-13 23:34:24.908 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:34:25.238 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 1172 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:34:25.240 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:34:25.269 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:34:25.956 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:34:25.963 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:34:25.964 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:34:25.964 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:34:26.039 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:34:26.039 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2020-09-13 23:34:26.288 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:34:26.335 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:34:26.446 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:34:26.548 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:34:26.550 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.602 seconds (JVM running for 2.935)
+2020-09-13 23:34:30.832 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:34:30.832 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:34:30.835 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 23:34:30.864 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:34:30.955 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:34:37.959 - INFO  [nio-8887-exec-2] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:7b8fb31222e590d9fc2866dbcb4c20277325290e
+2020-09-13 23:35:08.810 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:5ccb0a19987db6a62e428462763392457338ca1a
+2020-09-13 23:39:45.675 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:39:46.048 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 3240 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:39:46.052 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:39:46.083 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:39:46.890 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:39:46.897 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:39:46.897 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:39:46.898 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:39:47.013 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:39:47.013 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2020-09-13 23:39:47.340 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:39:47.387 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:39:47.513 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:39:47.529 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:39:47.532 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.81 seconds (JVM running for 3.184)
+2020-09-13 23:39:52.732 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:39:52.732 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:39:52.735 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 23:39:52.756 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:39:52.854 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:40:24.084 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:78754a679d6abbb754042c8e36f58ec505d7326d
+2020-09-13 23:40:56.741 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:60418d37e11e93645632f2ca80a20280dded2db3
+2020-09-13 23:43:46.757 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:43:47.104 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 10492 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:43:47.108 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:43:47.134 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:43:47.970 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:43:47.976 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:43:47.976 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:43:47.977 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:43:48.051 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:43:48.051 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 909 ms
+2020-09-13 23:43:48.320 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:43:48.364 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:43:48.488 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:43:48.543 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:43:48.545 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.747 seconds (JVM running for 3.188)
+2020-09-13 23:43:54.538 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:43:54.538 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:43:54.543 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2020-09-13 23:43:54.569 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:43:54.664 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:44:02.491 - INFO  [nio-8887-exec-3] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:a3e6f0b7f059c91f14440223fcd9aad19c8e9b55
+2020-09-13 23:44:38.405 - INFO  [           main] o.s.c.KotlinDetector           : Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-09-13 23:44:38.910 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CommunityApplication on LAPTOP-HQHVP7CD with PID 9512 (D:\Spring-Boot\community\target\classes started by Shawn in D:\Spring-Boot\community)
+2020-09-13 23:44:38.913 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2020-09-13 23:44:38.934 - WARN  [kground-preinit] o.s.c.l.CompositeLog           : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-13 23:44:39.765 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8887 (http)
+2020-09-13 23:44:39.773 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:44:39.773 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2020-09-13 23:44:39.774 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-09-13 23:44:39.847 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2020-09-13 23:44:39.847 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2020-09-13 23:44:40.160 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-13 23:44:40.207 - INFO  [           main] .w.s.WelcomePageHandlerMapping : Adding welcome page template: index
+2020-09-13 23:44:40.319 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8887"]
+2020-09-13 23:44:40.431 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8887 (http) with context path ''
+2020-09-13 23:44:40.433 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CommunityApplication in 1.949 seconds (JVM running for 3.776)
+2020-09-13 23:44:40.464 - INFO  [nio-8887-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-13 23:44:40.464 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2020-09-13 23:44:40.467 - INFO  [nio-8887-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 3 ms
+2020-09-13 23:44:40.491 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2020-09-13 23:44:40.590 - INFO  [nio-8887-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2020-09-13 23:45:05.024 - INFO  [nio-8887-exec-5] l.m.c.c.p.GithubProvider       : exchanged Accesstoken:6609e1107f34b4f445b1ef8748574273294499ef

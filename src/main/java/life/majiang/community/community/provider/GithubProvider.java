@@ -3,9 +3,18 @@ package life.majiang.community.community.provider;
 import com.alibaba.fastjson.JSON;
 import life.majiang.community.community.dto.AccessTokenDTO;
 import life.majiang.community.community.dto.GithubUser;
-import okhttp3.*;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.http.*;
 import org.springframework.stereotype.Component;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 
@@ -14,43 +23,29 @@ import java.io.IOException;
  */
 @Component
 public class GithubProvider {
+    private static final Logger logger = LoggerFactory.getLogger(GithubProvider.class);
+    @Autowired
+    private RestTemplateBuilder restTemplateBuilder;
+
     public String getAccessToken(AccessTokenDTO accessTokenDTO){
-        MediaType mediaType = MediaType.get("application/json; charset=utf-8");
-        OkHttpClient client = new OkHttpClient();
-        //alt+enter 引入jar包快捷键
-        RequestBody body = RequestBody.create(JSON.toJSONString(accessTokenDTO),mediaType);
-        Request request = new Request.Builder()
-                .url("https://github.com/login/oauth/access_token")
-                .post(body)
-                .build();
-        try (Response response = client.newCall(request).execute()) {
-            String string = response.body().string();
-            String[] strings = string.split("&");
-            String token = strings[0].split("=")[1];
-            System.out.println("exchanged Accesstoken: "+token);
-            return token;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+        RestTemplate restTemplate = restTemplateBuilder.build();
+        String response = restTemplate.postForObject("https://github.com/login/oauth/access_token", accessTokenDTO, String.class);
+        logger.debug("response body: {}",response);
+        String[] strings = response.split("&");
+        String token = strings[0].split("=")[1];
+        logger.info("exchanged Accesstoken:" + token);
+        return token;
     }
 
     public GithubUser getUser(String githubAccessToken) {
-        OkHttpClient client = new OkHttpClient();
+        RestTemplate restTemplate = restTemplateBuilder.build();
 
-        Request request = new Request.Builder()
-                .url("https://api.github.com/user")
-                .header("Authorization","token "+githubAccessToken)
-                .build();
-
-        try (Response response = client.newCall(request).execute()) {
-            String string = response.body().string();
-            GithubUser githubUser = JSON.parseObject(string, GithubUser.class); //ctrl+alt+V
-            return githubUser;
-        } catch (IOException e) {
-
-        }
-        return null;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("accept", "application/vnd.github.v3+json");
+        headers.add("Authorization", "token "+githubAccessToken);
+        HttpEntity<GithubUser> requestEntity = new HttpEntity<>(null, headers);
+        ResponseEntity<GithubUser> responseEntity = restTemplate.exchange("https://api.github.com/user", HttpMethod.GET, requestEntity, GithubUser.class);
+        return responseEntity.getBody();
     }
 
 }

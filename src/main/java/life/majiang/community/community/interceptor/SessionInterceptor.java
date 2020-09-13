@@ -2,6 +2,8 @@ package life.majiang.community.community.interceptor;
 
 import life.majiang.community.community.mapper.UserMapper;
 import life.majiang.community.community.model.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -16,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Service
 public class SessionInterceptor implements HandlerInterceptor {
+    private static final Logger logger = LoggerFactory.getLogger(SessionInterceptor.class);
     @Autowired
     UserMapper mapper;
     @Override
@@ -35,6 +38,7 @@ public class SessionInterceptor implements HandlerInterceptor {
             if(user!=null)
             {
                 request.getSession().setAttribute("user", user);    //将User对象放入session以便获取信息
+
             }
         }
         return true;
