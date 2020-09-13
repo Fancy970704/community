@@ -1,52 +1,24 @@
 package life.majiang.community.community.controller;
 
-import life.majiang.community.community.dto.QuestionDTO;
-import life.majiang.community.community.mapper.QuestionMapper;
-import life.majiang.community.community.mapper.UserMapper;
-import life.majiang.community.community.model.Question;
-import life.majiang.community.community.model.User;
+import life.majiang.community.community.dto.PaginationDTO;
 import life.majiang.community.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class IndexController {
-    @Autowired
-    private UserMapper mapper;
+public class
+IndexController {
     @Autowired
     private QuestionService questionService;
 
     @GetMapping({"/index", "/"})
-    public String index(HttpServletRequest request,
-                        Model model) {
-        Cookie[] cookies = request.getCookies();
-        if(cookies!=null){
-            String token = null;
-            for(Cookie cookie: cookies)
-            {
-                if(cookie.getName().equals("token"))
-                {
-                    token = cookie.getValue();
-                    System.out.println("cookie acquired "+token);
-                }
-            }
-            User user = mapper.findByToken(token);
-            if(user!=null)
-            {
-                System.out.println(user.toString());
-                request.getSession().setAttribute("user", user);
-            }
-
-        }
-
-        List<QuestionDTO> questionDTOList = questionService.getAllQuestions();
-        model.addAttribute("questions", questionDTOList);
+    public String index(Model model,
+                        @RequestParam(name = "page", defaultValue = "1") Integer page) {
+        PaginationDTO paginationDTO = questionService.list(page);  //问题列表
+        model.addAttribute("paginationDTO", paginationDTO);   //与session功能类似
         return "index";
     }
 }

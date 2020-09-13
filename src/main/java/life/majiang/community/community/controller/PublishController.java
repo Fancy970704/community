@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -56,12 +55,10 @@ public class PublishController {
         }
         else
         {
-            System.out.println(user.toString());
             Question question = new Question();
             question.setTitle(title);
             question.setDescription(description);
             question.setTag(tag);
-            System.out.println("creator: "+user.getId());
             question.setCreator(new Integer(user.getId()));
             question.setGmtCreate(System.currentTimeMillis());
             question.setGmtModified(question.getGmtCreate());

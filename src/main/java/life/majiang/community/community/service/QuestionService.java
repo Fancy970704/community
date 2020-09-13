@@ -1,5 +1,6 @@
 package life.majiang.community.community.service;
 
+import life.majiang.community.community.dto.PaginationDTO;
 import life.majiang.community.community.dto.QuestionDTO;
 import life.majiang.community.community.mapper.QuestionMapper;
 import life.majiang.community.community.mapper.UserMapper;
@@ -7,6 +8,7 @@ import life.majiang.community.community.model.Question;
 import life.majiang.community.community.model.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -21,17 +23,53 @@ public class QuestionService {
     private QuestionMapper questionMapper;
     @Autowired
     private UserMapper userMapper;
-
-    public List<QuestionDTO> getAllQuestions() {
-        List<Question> questionList = questionMapper.getAllQuestions();
+    @Value("${questions.page.size}")
+    private Integer size;
+    public PaginationDTO list(Integer page) {
+        Integer offset = size * (page - 1);
+        List<Question> questionList = questionMapper.getAllQuestions(offset, size);
         List<QuestionDTO> questionDTOList = new ArrayList<>();
+        PaginationDTO paginationDTO = new PaginationDTO();
         for (Question question : questionList) {
-            User user = userMapper.findById(question.getCreator());
+            User temp = userMapper.findById(question.getCreator());
             QuestionDTO questionDTO = new QuestionDTO();
             BeanUtils.copyProperties(question, questionDTO);
-            questionDTO.setUser(user);
+            questionDTO.setUser(temp);
             questionDTOList.add(questionDTO);
         }
-        return questionDTOList;
+        paginationDTO.setQuestionDTOList(questionDTOList);
+        paginationDTO.setPage(page);
+        int questionCount = questionMapper.count();
+        paginationDTO.setPagination(questionCount, page, size);
+        return paginationDTO;
     }
+
+    public PaginationDTO list(User user, Integer page) {
+        Integer offset = size * (page - 1);
+        List<Question> questionList = questionMapper.getUserQuestions(user.getId(),offset, size);
+        List<QuestionDTO> questionDTOList = new ArrayList<>();
+        PaginationDTO paginationDTO = new PaginationDTO();
+        for (Question question : questionList) {
+            User temp = userMapper.findById(question.getCreator());
+            QuestionDTO questionDTO = new QuestionDTO();
+            BeanUtils.copyProperties(question, questionDTO);
+            questionDTO.setUser(temp);
+            questionDTOList.add(questionDTO);
+        }
+        paginationDTO.setQuestionDTOList(questionDTOList);
+        paginationDTO.setPage(page);
+        int questionCount = questionMapper.countByCreator(user.getId());
+        paginationDTO.setPagination(questionCount, page, size);
+        return paginationDTO;
+    }
+
+    public QuestionDTO getQuestionById(Integer id) {
+        Question question = questionMapper.getQuestionById(id);
+        User user = userMapper.findById(question.getCreator());
+        QuestionDTO questionDTO = new QuestionDTO();
+        BeanUtils.copyProperties(question, questionDTO);
+        questionDTO.setUser(user);
+        return questionDTO;
+    }
+
 }

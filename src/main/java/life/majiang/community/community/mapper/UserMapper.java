@@ -35,4 +35,11 @@ public interface UserMapper {
     @Select("select * from USER where id = #{id}")
     @ResultMap("userMap")
     public User findById(@Param("id") Integer id);
+
+    @Select("select * from USER where account_id = #{accountId}")
+    @ResultMap("userMap")
+    public User findByAccountId(@Param("accountId") String accountId);
+
+    @Update("update USER set GMT_MODIFIED = #{gmtModified}, AVATAR_URL = #{avatarUrl}, BIO = #{bio}, NAME = #{name}, TOKEN = #{token} where ACCOUNT_ID = #{accountId}")
+    public int updateUser(User user);
 }

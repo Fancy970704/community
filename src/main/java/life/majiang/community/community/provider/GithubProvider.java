@@ -27,7 +27,7 @@ public class GithubProvider {
             String string = response.body().string();
             String[] strings = string.split("&");
             String token = strings[0].split("=")[1];
-            System.out.println(token);
+            System.out.println("exchanged Accesstoken: "+token);
             return token;
         } catch (Exception e) {
             e.printStackTrace();

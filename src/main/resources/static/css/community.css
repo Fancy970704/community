@@ -23,4 +23,12 @@ body{
     width:38px;
 }
 
+.profile.section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.link{
+    font-size: 12px;
+    color: #999;
+}

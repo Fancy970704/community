@@ -15,7 +15,7 @@ public interface QuestionMapper {
     @ResultMap("questionMap")
     public void createQuestion(Question question);
 
-    @Select("select * from Question")
+    @Select("select * from Question limit #{size} offset #{offset} ")
     @Results(id = "questionMap", value = {
             @Result(column = "id", property = "id"),
             @Result(column = "title", property = "title"),
@@ -29,5 +29,19 @@ public interface QuestionMapper {
             @Result(column = "tag", property = "tag"),
 
     })
-    public List<Question> getAllQuestions();
+    public List<Question> getAllQuestions(Integer offset, Integer size);
+
+
+    @Select("select * from Question where creator = #{creator} limit #{size} offset #{offset} ")
+    @ResultMap("questionMap")
+    public List<Question> getUserQuestions(Integer creator, Integer offset, Integer size);
+
+    @Select("select count(*) from question")
+    int count();
+
+    @Select("select count(*) from question where creator = #{creator}")
+    int countByCreator(Integer creator);
+
+    @Select("select * from question where id = #{id}")
+    Question getQuestionById(Integer id);
 }
