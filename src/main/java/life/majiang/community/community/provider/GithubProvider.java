@@ -37,7 +37,7 @@ public class GithubProvider {
         return token;
     }
 
-    public GithubUser getUser(String githubAccessToken) {
+    public GithubUser getUser(String githubAccessToken) { //没有包体的，只有包头，用exchange的get方法
         RestTemplate restTemplate = restTemplateBuilder.build();
 
         HttpHeaders headers = new HttpHeaders();

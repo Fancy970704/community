@@ -15,7 +15,7 @@ public interface QuestionMapper {
     @ResultMap("questionMap")
     public void createQuestion(Question question);
 
-    @Select("select * from Question limit #{size} offset #{offset} ")
+    @Select("select * from Question order by gmt_modified desc limit #{size} offset #{offset} ")
     @Results(id = "questionMap", value = {
             @Result(column = "id", property = "id"),
             @Result(column = "title", property = "title"),
@@ -32,7 +32,7 @@ public interface QuestionMapper {
     public List<Question> getAllQuestions(Integer offset, Integer size);
 
 
-    @Select("select * from Question where creator = #{creator} limit #{size} offset #{offset} ")
+    @Select("select * from Question where creator = #{creator} order by gmt_modified desc limit #{size} offset #{offset} ")
     @ResultMap("questionMap")
     public List<Question> getUserQuestions(Integer creator, Integer offset, Integer size);
 
@@ -44,4 +44,8 @@ public interface QuestionMapper {
 
     @Select("select * from question where id = #{id}")
     Question getQuestionById(Integer id);
+
+    @Update("update question set description = #{description}, gmt_modified = #{gmtModified}, tag = #{tag} " +
+            "where id = #{id}")
+    void updateQuestion(Question question);
 }

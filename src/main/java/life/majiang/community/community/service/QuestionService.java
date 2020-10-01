@@ -28,16 +28,7 @@ public class QuestionService {
     public PaginationDTO list(Integer page) {
         Integer offset = size * (page - 1);
         List<Question> questionList = questionMapper.getAllQuestions(offset, size);
-        List<QuestionDTO> questionDTOList = new ArrayList<>();
-        PaginationDTO paginationDTO = new PaginationDTO();
-        for (Question question : questionList) {
-            User temp = userMapper.findById(question.getCreator());
-            QuestionDTO questionDTO = new QuestionDTO();
-            BeanUtils.copyProperties(question, questionDTO);
-            questionDTO.setUser(temp);
-            questionDTOList.add(questionDTO);
-        }
-        paginationDTO.setQuestionDTOList(questionDTOList);
+        PaginationDTO paginationDTO = createPaginationDTO(questionList);
         paginationDTO.setPage(page);
         int questionCount = questionMapper.count();
         paginationDTO.setPagination(questionCount, page, size);
@@ -47,6 +38,14 @@ public class QuestionService {
     public PaginationDTO list(User user, Integer page) {
         Integer offset = size * (page - 1);
         List<Question> questionList = questionMapper.getUserQuestions(user.getId(),offset, size);
+        PaginationDTO paginationDTO = createPaginationDTO(questionList);
+        paginationDTO.setPage(page);
+        int questionCount = questionMapper.countByCreator(user.getId());
+        paginationDTO.setPagination(questionCount, page, size);
+        return paginationDTO;
+    }
+
+    private PaginationDTO createPaginationDTO(List<Question> questionList){
         List<QuestionDTO> questionDTOList = new ArrayList<>();
         PaginationDTO paginationDTO = new PaginationDTO();
         for (Question question : questionList) {
@@ -57,9 +56,6 @@ public class QuestionService {
             questionDTOList.add(questionDTO);
         }
         paginationDTO.setQuestionDTOList(questionDTOList);
-        paginationDTO.setPage(page);
-        int questionCount = questionMapper.countByCreator(user.getId());
-        paginationDTO.setPagination(questionCount, page, size);
         return paginationDTO;
     }
 
@@ -72,4 +68,15 @@ public class QuestionService {
         return questionDTO;
     }
 
+    public void createOrUpdateQuestion(Question question) {
+        if(question.getId()==null){
+            question.setGmtCreate(System.currentTimeMillis());
+            question.setGmtModified(question.getGmtCreate());
+            questionMapper.createQuestion(question);
+        }
+        else{
+            question.setGmtModified(System.currentTimeMillis());
+            questionMapper.updateQuestion(question);
+        }
+    }
 }
